@@ -1,6 +1,6 @@
 function soma() {
     let soma = 0
-    for (i in arguments) {
+    for (i in arguments) { // arguments cria um "array", (site mozilla)
         soma += arguments[i]
     }
     return soma
