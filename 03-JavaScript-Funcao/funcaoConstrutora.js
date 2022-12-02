@@ -3,7 +3,7 @@ function Carro(velocidadeMaxima = 200, delta = 5) {
     let velocidadeAtual = 0
 
     // metodo publico
-    this.acelerar = function () {
+    this.acelerar = function () {    // this é o responsavel por criar atributos publicos
         if (velocidadeAtual + delta <= velocidadeMaxima) {
             velocidadeAtual += delta
         } else {
@@ -17,8 +17,8 @@ function Carro(velocidadeMaxima = 200, delta = 5) {
     }
 }
 
-const uno = new Carro
-uno.acelerar()
+const uno = new Carro  // new instancia a nova função
+uno.acelerar()         //Carro: não precisa de parenteses pois os paramentros ja foram definidos na linha 1
 console.log(uno.getVelocidadeAtual())
 
 const ferrari = new Carro(350, 20)

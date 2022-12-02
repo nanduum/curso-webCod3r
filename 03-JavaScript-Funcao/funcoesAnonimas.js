@@ -11,7 +11,7 @@ imprimirResultado(3, 4, soma)
 imprimirResultado(3, 4, function (x, y) {
     return x - y
 })
-imprimirResultado(3, 4, (x, y) => x * y)
+imprimirResultado(3, 4, (x, y) => x * y)   //funções com arrow sempre serão anonimas
 
 const pessoa = {
     falar: function () {
