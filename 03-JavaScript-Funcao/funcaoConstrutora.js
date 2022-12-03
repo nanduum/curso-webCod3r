@@ -27,5 +27,5 @@ ferrari.acelerar()
 ferrari.acelerar()
 console.log(ferrari.getVelocidadeAtual())
 
-console.log(typeof Carro)
-console.log(typeof ferrari)
+console.log(typeof Carro) //retorna function
+console.log(typeof ferrari) //retorna objeto
