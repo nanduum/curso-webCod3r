@@ -24,3 +24,25 @@ imprimirResultado(6.55)
 imprimirResultado(2.3)
 imprimirResultado(-1)
 imprimirResultado(11)
+
+// OBS: Caso o parametro seja uma string utilizar aspas, ex: "a"
+
+// function switchOfStuff(val) {
+//   let answer = "";
+
+//   switch (val) {
+//     case "a":
+//       answer = "apple";
+//       break;
+//     case "b":
+//       answer = "bird";
+//       break;
+//     case "c":
+//       answer = "cat";
+//       break;
+//     default:
+//       answer = "stuff";
+//   }
+
+//   return answer;
+// }
