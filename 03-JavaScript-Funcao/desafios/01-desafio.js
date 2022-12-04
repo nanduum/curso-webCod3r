@@ -2,8 +2,9 @@
 // multiplicação e divisão desses valores.
 
 function valores(a, b){
-    a = 7
-    b = 5
+    
+//a = 7    // os valores também podem ser declarados antes
+//b = 5    
 
     console.log('Soma:', a + b)
     console.log('Subtração:', a - b)
@@ -11,7 +12,7 @@ function valores(a, b){
     console.log('Divisão:', a / b)
 }
 
-valores()
+valores(7, 5)
 
 // ------------------------------------------------------------------------
 // Outra Solução:
